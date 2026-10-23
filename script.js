@@ -12,7 +12,24 @@ const products = [
  {id:"FD-003",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Nuansa urban untuk karakter dengan cerita kuat.",image:"assets/faces/FD-003.png"},
  {id:"FD-004",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Tampilan gelap dan refined untuk karakter berkelas.",image:"assets/faces/FD-004.png"},
  {id:"FD-005",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Pilihan premium dengan look berkarakter dan berani.",image:"assets/faces/FD-005.png"},
- {id:"FD-006",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Style premium untuk identitas karakter yang khas.",image:"assets/faces/FD-006.png"}
+ {id:"FD-006",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Style premium untuk identitas karakter yang khas.",image:"assets/faces/FD-006.png"},
+ {id:"FD-007",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Karakter maskulin dengan aura street yang kuat.",image:"assets/faces/FD-007.png"},
+ {id:"FD-008",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Desain modern dengan tampilan tajam dan berkelas.",image:"assets/faces/FD-008.png"},
+ {id:"FD-009",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Identitas urban untuk karakter roleplay yang unik.",image:"assets/faces/FD-009.png"},
+ {id:"FD-010",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Look eksklusif dengan sentuhan luxury modern.",image:"assets/faces/FD-010.png"},
+ {id:"FD-011",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Tampilan tegas untuk karakter dengan kepribadian dominan.",image:"assets/faces/FD-011.png"},
+ {id:"FD-012",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Gaya clean dan premium untuk penampilan sehari-hari.",image:"assets/faces/FD-012.png"},
+ {id:"FD-013",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Karakter streetwear dengan pesona yang khas.",image:"assets/faces/FD-013.png"},
+ {id:"FD-014",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Desain refined dengan nuansa eksklusif dan modern.",image:"assets/faces/FD-014.png"},
+ {id:"FD-015",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Look berani untuk karakter dengan cerita yang menonjol.",image:"assets/faces/FD-015.png"},
+ {id:"FD-016",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Gaya urban premium dengan karakter visual yang kuat.",image:"assets/faces/FD-016.png"},
+ {id:"FD-017",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Penampilan maskulin dengan detail bergaya modern.",image:"assets/faces/FD-017.png"},
+ {id:"FD-018",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Identitas premium untuk karakter FiveM yang berbeda.",image:"assets/faces/FD-018.png"},
+ {id:"FD-019",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Look eksklusif dengan sentuhan street-luxury.",image:"assets/faces/FD-019.png"},
+ {id:"FD-020",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Gaya kontemporer dengan aura percaya diri.",image:"assets/faces/FD-020.png"},
+ {id:"FD-021",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Tampilan premium untuk karakter dengan identitas kuat.",image:"assets/faces/FD-021.png"},
+ {id:"FD-022",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Karakter urban dengan gaya elegan dan berani.",image:"assets/faces/FD-022.png"},
+ {id:"FD-023",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Desain eksklusif untuk melengkapi koleksi Face District.",image:"assets/faces/FD-023.png"}
 ];
 const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
