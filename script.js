@@ -7,12 +7,12 @@
 const whatsappNumber = ""; // contoh: "60123456789"
 const discordInvite = ""; // contoh: "https://discord.gg/INVITEKAMU"
 const products = [
- {id:"FD-001",name:"helface",gender:"male",price:"RM 35",status:"TERSEDIA",description:"Look tegas dengan karakter street-luxury untuk roleplay yang menonjol.",image:"assets/faces/FD-001.png"},
- {id:"FD-002",name:"helface",gender:"male",price:"RM 35",status:"TERSEDIA",description:"Style elegan dengan identitas visual yang clean dan modern.",image:"assets/faces/FD-002.png"},
- {id:"FD-003",name:"helface",gender:"male",price:"RM 30",status:"TERSEDIA",description:"Nuansa urban untuk karakter dengan cerita kuat.",image:"assets/faces/FD-003.png"},
- {id:"FD-004",name:"helface",gender:"male",price:"RM 30",status:"TERSEDIA",description:"Tampilan gelap dan refined untuk karakter berkelas.",image:"assets/faces/FD-004.png"},
- {id:"FD-005",name:"helface",gender:"male",price:"RM 40",status:"TERSEDIA",description:"Pilihan premium dengan look berkarakter dan berani.",image:"assets/faces/FD-005.png"},
- {id:"FD-006",name:"helface",gender:"male",price:"RM 40",status:"TERSEDIA",description:"Style premium untuk identitas karakter yang khas.",image:"assets/faces/FD-006.png"}
+ {id:"FD-001",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Look tegas dengan karakter street-luxury untuk roleplay yang menonjol.",image:"assets/faces/FD-001.png"},
+ {id:"FD-002",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Style elegan dengan identitas visual yang clean dan modern.",image:"assets/faces/FD-002.png"},
+ {id:"FD-003",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Nuansa urban untuk karakter dengan cerita kuat.",image:"assets/faces/FD-003.png"},
+ {id:"FD-004",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Tampilan gelap dan refined untuk karakter berkelas.",image:"assets/faces/FD-004.png"},
+ {id:"FD-005",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Pilihan premium dengan look berkarakter dan berani.",image:"assets/faces/FD-005.png"},
+ {id:"FD-006",name:"helface",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Style premium untuk identitas karakter yang khas.",image:"assets/faces/FD-006.png"}
 ];
 const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
