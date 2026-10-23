@@ -22,3 +22,62 @@
     object-fit: contain;
     object-position: center;
 }
+
+
+/* Face District — Exclusive Ownership Policy */
+.ownership {
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.ownership-list {
+  margin-top: 36px;
+  border-top: 1px solid #292929;
+}
+
+.ownership-item {
+  display: flex;
+  gap: 24px;
+  padding: 25px 0;
+  border-bottom: 1px solid #292929;
+}
+
+.ownership-item > span {
+  color: #d4af37;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding-top: 3px;
+}
+
+.ownership-item h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.ownership-item p {
+  margin: 0;
+  color: #aaa69d;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.ownership-notice {
+  margin-top: 28px;
+  padding: 20px;
+  background: #14130f;
+  border-left: 2px solid #d4af37;
+  color: #d8cda9;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.ownership-notice span {
+  color: #d4af37;
+  margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+  .ownership-item {
+    gap: 16px;
+  }
+}
+
