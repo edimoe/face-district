@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "GANTI_DENGAN_NAMA_WORKER_PERSIS",
+  "compatibility_date": "2026-10-22",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}
