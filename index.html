@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0c0d12">
+<meta name="description" content="Custom face FiveM — katalog dan pemesanan.">
+<title>FACE DISTRICT | FiveM Custom Faces</title>
+<style>
+:root{--bg:#0c0d12;--panel:#151720;--panel2:#1b1e29;--gold:#e6c477;--muted:#a7a9b6;--line:#2a2d38;--white:#f7f7fb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#172036 0,transparent 35%),var(--bg);color:var(--white);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#0c0d12eF;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:17px 0}.brand{font-weight:900;letter-spacing:.13em;color:var(--gold);font-size:1.08rem}.brand small{display:block;color:var(--muted);font-size:.62rem;letter-spacing:.2em;font-weight:600}.navlinks{display:flex;gap:22px;color:#d4d5dc;font-size:.9rem}.navlinks a:hover{color:var(--gold)}
+.hero{padding:78px 0 55px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:45px}.eyebrow{color:var(--gold);font-size:.75rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase}.hero h1{font-size:clamp(2.7rem,6vw,5rem);line-height:.98;letter-spacing:-.055em;margin:17px 0}.hero h1 span{color:var(--gold)}.hero p{color:var(--muted);max-width:540px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);padding:12px 18px;border-radius:9px;font-weight:750;font-size:.9rem;transition:.2s}.btn.gold{background:var(--gold);border-color:var(--gold);color:#15120a}.btn:hover{transform:translateY(-2px)}.hero-art{min-height:330px;border:1px solid #33384a;border-radius:22px;background:linear-gradient(145deg,#20283b,#11131b 65%);display:flex;align-items:center;justify-content:center;text-align:center;padding:28px;position:relative;overflow:hidden}.hero-art:before{content:"";position:absolute;width:260px;height:260px;border:1px solid #e6c47735;border-radius:50%;box-shadow:0 0 0 35px #e6c47708,0 0 0 70px #e6c47705}.hero-art div{position:relative}.face-icon{font-size:5.2rem;filter:grayscale(1);opacity:.8}.hero-art strong{display:block;letter-spacing:.18em;color:var(--gold);font-size:.8rem}.hero-art small{color:var(--muted)}
+section{padding:40px 0 65px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:25px}.section-head h2{margin:5px 0;font-size:clamp(1.8rem,4vw,2.6rem);letter-spacing:-.04em}.section-head p{color:var(--muted);margin:0;max-width:420px;font-size:.92rem}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.filter{border:1px solid var(--line);background:transparent;color:var(--muted);padding:8px 13px;border-radius:999px;cursor:pointer}.filter.active,.filter:hover{background:#292315;color:var(--gold);border-color:#806b3b}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:15px;background:linear-gradient(160deg,#191b25,#12131a);overflow:hidden;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#6e5d37}.preview{height:225px;background:linear-gradient(135deg,#242b3a,#11131a);display:flex;align-items:center;justify-content:center;overflow:hidden;color:#777e91}.preview img{width:100%;height:100%;object-fit:cover;display:block}.placeholder{text-align:center;padding:20px}.placeholder span{font-size:3.5rem;display:block;opacity:.65}.placeholder small{color:#a7a9b6}.card-body{padding:17px}.meta{color:var(--gold);font-size:.69rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.card h3{margin:5px 0;font-size:1.15rem}.desc{color:var(--muted);font-size:.86rem;min-height:42px}.card-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:15px}.price{font-weight:900;color:var(--gold);font-size:1.05rem}.order{background:var(--gold);color:#17130a;border-radius:7px;padding:9px 12px;font-size:.78rem;font-weight:850}
+.note{color:var(--muted);font-size:.82rem;margin-top:18px}.contactbox{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}.contact-card h3{margin:0 0 7px}.contact-card p{color:var(--muted);margin:0 0 18px}.contact-card .btn{margin:4px 5px 0 0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.step{border:1px solid var(--line);border-radius:12px;padding:20px;background:#12141b}.num{color:var(--gold);font-weight:900;letter-spacing:.12em;font-size:.75rem}.step h3{margin:7px 0}.step p{color:var(--muted);font-size:.9rem;margin:0}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.82rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:780px){.hero{grid-template-columns:1fr;padding-top:52px;gap:28px}.hero-art{min-height:250px}.grid{grid-template-columns:repeat(2,1fr)}.contactbox,.steps{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:8px}.navlinks{gap:12px;font-size:.8rem}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.preview{height:250px}.brand{font-size:.9rem}.navlinks{gap:9px}.navlinks a{font-size:.75rem}.hero h1{font-size:3rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">FACE DISTRICT<small>FIVEM CUSTOM FACES</small></a>
+  <nav class="navlinks"><a href="#gallery">Gallery</a><a href="#order">How to Order</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<div class="wrap hero" id="home">
+  <div><div class="eyebrow">Premium character collection</div>
+    <h1>YOUR CHARACTER.<br><span>YOUR IDENTITY.</span></h1>
+    <p>Temukan custom face untuk karakter FiveM kamu. Lihat preview, pilih face favorit, lalu hubungi kami untuk detail dan pemesanan.</p>
+    <div class="actions"><a class="btn gold" href="#gallery">Explore Gallery ↘</a><a class="btn" href="#contact">Contact Us</a></div>
+  </div>
+  <div class="hero-art"><div><div class="face-icon">◉</div><strong>YOUR FACE. YOUR STYLE.</strong><small>Replace this area with your own artwork</small></div></div>
+</div>
+<section id="gallery"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">The collection</div><h2>Custom Face Gallery</h2></div><p>Semua preview di bawah adalah contoh placeholder. Ganti dengan screenshot custom face milikmu sendiri.</p></div>
+  <div class="filters"><button class="filter active" data-filter="all">All Faces</button><button class="filter" data-filter="male">Male</button><button class="filter" data-filter="female">Female</button></div>
+  <div class="grid" id="products">
+    <article class="card" data-gender="male"><div class="preview"><div class="placeholder"><span>◉</span><small>Tambahkan gambar face-001.jpg</small></div></div><div class="card-body"><div class="meta">Male · Custom Head</div><h3>Custom Face 001</h3><div class="desc">Deskripsi singkat tentang tampilan atau detail face.</div><div class="card-bottom"><div class="price">RM 25</div><a class="order order-link" data-product="Custom Face 001" href="#contact">Order ↗</a></div></div></article>
+    <article class="card" data-gender="female"><div class="preview"><div class="placeholder"><span>◉</span><small>Tambahkan gambar face-002.jpg</small></div></div><div class="card-body"><div class="meta">Female · Custom Head</div><h3>Custom Face 002</h3><div class="desc">Deskripsi singkat tentang tampilan atau detail face.</div><div class="card-bottom"><div class="price">RM 25</div><a class="order order-link" data-product="Custom Face 002" href="#contact">Order ↗</a></div></div></article>
+    <article class="card" data-gender="male"><div class="preview"><div class="placeholder"><span>◉</span><small>Tambahkan gambar face-003.jpg</small></div></div><div class="card-body"><div class="meta">Male · Custom Head</div><h3>Custom Face 003</h3><div class="desc">Deskripsi singkat tentang tampilan atau detail face.</div><div class="card-bottom"><div class="price">RM 30</div><a class="order order-link" data-product="Custom Face 003" href="#contact">Order ↗</a></div></div></article>
+  </div>
+  <p class="note">Harga dan nama di atas hanya contoh. Edit sesuai produk kamu. Jangan unggah file resource berbayar atau file mentah jika tidak ingin dibagikan publik.</p>
+</div></section>
+<section id="order"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Simple process</div><h2>How to Order</h2></div></div>
+  <div class="steps"><div class="step"><div class="num">STEP 01</div><h3>Pilih Face</h3><p>Lihat galeri dan pilih custom face yang kamu suka.</p></div><div class="step"><div class="num">STEP 02</div><h3>Hubungi Kami</h3><p>Kirim nama atau kode produk melalui WhatsApp atau Discord.</p></div><div class="step"><div class="num">STEP 03</div><h3>Konfirmasi</h3><p>Konfirmasi kompatibilitas, harga, cara pembayaran, dan pengiriman secara pribadi.</p></div></div>
+</div></section>
+<section id="contact"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Let's connect</div><h2>Ready to find your face?</h2></div><p>Ganti link di bawah dengan kontak kamu sebelum membagikan website.</p></div>
+  <div class="contactbox"><div class="contact-card"><h3>WhatsApp</h3><p>Tanya harga, ketersediaan, atau cara pemesanan.</p><a class="btn gold" id="wa" href="https://wa.me/" target="_blank" rel="noopener">Chat on WhatsApp ↗</a></div><div class="contact-card"><h3>Discord</h3><p>Hubungi kami untuk bantuan dan komunitas.</p><a class="btn" id="discord" href="https://discord.com/" target="_blank" rel="noopener">Join Discord ↗</a></div></div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> FACE DISTRICT. All rights reserved.</span><span>Independent FiveM custom-face showcase. Not affiliated with Rockstar Games or Cfx.re.</span></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{
+  document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');
+  document.querySelectorAll('.card').forEach(card=>{card.style.display=(btn.dataset.filter==='all'||card.dataset.gender===btn.dataset.filter)?'':'none';});
+}));
+document.querySelectorAll('.order-link').forEach(a=>a.addEventListener('click',e=>{
+  e.preventDefault();
+  const product=a.dataset.product;
+  const phone='REPLACE_WITH_YOUR_WHATSAPP_NUMBER';
+  if(phone!=='REPLACE_WITH_YOUR_WHATSAPP_NUMBER' && phone.length>5){
+    window.open('https://wa.me/'+phone+'?text='+encodeURIComponent('Halo, saya tertarik dengan '+product+'. Boleh info detailnya?'),'_blank','noopener');
+  } else {
+    document.getElementById('contact').scrollIntoView({behavior:'smooth'});
+    alert('Silakan hubungi WhatsApp/Discord pada bagian Contact. Ganti nomor WhatsApp pada file index.html untuk mengaktifkan tombol order langsung.');
+  }
+}));
+</script>
+</body></html>
