@@ -1,0 +1,1 @@
+Letakkan gambar preview custom face asli di folder ini. Contoh: fd-001.jpg. Lalu isi properti image pada produk terkait di script.js. Preview bawaan adalah placeholder.
