@@ -27,8 +27,6 @@ const products = [
  {id:"FD-018",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Identitas premium untuk karakter FiveM yang berbeda.",image:"assets/faces/FD-018.png"},
  {id:"FD-019",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Look eksklusif dengan sentuhan street-luxury.",image:"assets/faces/FD-019.png"},
  {id:"FD-020",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Gaya kontemporer dengan aura percaya diri.",image:"assets/faces/FD-020.png"},
- {id:"FD-021",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Tampilan premium untuk karakter dengan identitas kuat.",image:"assets/faces/FD-021.png"},
- {id:"FD-022",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Karakter urban dengan gaya elegan dan berani.",image:"assets/faces/FD-022.png"},
 ];
 const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
