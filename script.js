@@ -23,7 +23,7 @@ const products = [
  {id:"FD-014",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Desain refined dengan nuansa eksklusif dan modern.",image:"assets/faces/FD-014.png"},
  {id:"FD-015",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Look berani untuk karakter dengan cerita yang menonjol.",image:"assets/faces/FD-015.png"},
  {id:"FD-016",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Gaya urban premium dengan karakter visual yang kuat.",image:"assets/faces/FD-016.png"},
- {id:"FD-017",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Penampilan maskulin dengan detail bergaya modern.",image:"assets/faces/FD-017.png"},
+ {id:"FD-017",name:"Halfped",gender:"male",price:"RP 400.000",status:"TERSEDIA",description:"Penampilan maskulin dengan detail bergaya modern.",image:"assets/faces/FD-017.png"},
  {id:"FD-018",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Identitas premium untuk karakter FiveM yang berbeda.",image:"assets/faces/FD-018.png"},
  {id:"FD-019",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Look eksklusif dengan sentuhan street-luxury.",image:"assets/faces/FD-019.png"},
  {id:"FD-020",name:"Halfped",gender:"male",price:"RP 350.000",status:"TERSEDIA",description:"Gaya kontemporer dengan aura percaya diri.",image:"assets/faces/FD-020.png"},
